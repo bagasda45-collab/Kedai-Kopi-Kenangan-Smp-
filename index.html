@@ -31,13 +31,61 @@
         <a href="#">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Menu</a>
+        <a href="#product">Produk</a>
         <a href="#contact">Kontak</a>
       </div>
 
-      <div class="navbar-extra"></div>
-      <a href="#" id="search"><i data-feather="search"></i></a>
-      <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+      <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
       <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search form start -->
+<div class="search-form">
+  <input type="search" id="search-box" placeholder="search here...">
+  <label for="search-box"><i data-feather="search"></i></label>
+</div>
+
+      <!-- Search form end -->
+
+      <!-- Shopping Cart start -->
+<div class="shopping-cart">
+  <div class="cart-item">
+<img src="img/produk-1.jpeg" alt="Product 1">
+    <div class="item-details">
+      <h3>Product 1</h3>
+      <div class="item-price">IDR 50K</div>
+    </div>
+    <i data-feather="trash-2" class="remove-item"></i>
+  </div>
+  <div class="cart-item">
+<img src="img/produk-2.jpeg" alt="Product 2">
+    <div class="item-details">
+      <h3>Product 2</h3>
+      <div class="item-price">IDR 70K</div>
+    </div>
+    <i data-feather="trash-2" class="remove-item"></i>
+  </div>
+  <div class="cart-item">
+<img src="img/produk-3.jpeg" alt="Product 3">
+    <div class="item-details">
+      <h3>Product 3</h3>
+      <div class="item-price">IDR 80K</div>
+    </div>
+    <i data-feather="trash-2" class="remove-item"></i>
+  </div>
+  <div class="cart-item">
+<img src="img/produk-4.jpeg" alt="Product 4">
+    <div class="item-details">
+      <h3>Product 4</h3>
+      <div class="item-price">IDR 70K</div>
+    </div>
+    <i data-feather="trash-2" class="remove-item"></i>
+  </div>
+</div>
+      <!-- Shopping Cart end -->
+
     </nav>
 
     <!-- NavBar end -->
@@ -131,6 +179,103 @@
 
     <!-- Menu Section end -->
 
+    <!-- Product Section start -->
+<section class="product" id="product">
+  <h2><span>Produk Unggulan</span> Kami</h2>
+  <p>
+    Kami dengan bangga mempersembahkan produk unggulan kami yang telah
+    dipilih dengan cermat untuk memberikan pengalaman kopi terbaik bagi Anda.
+  </p>
+
+  <div class="row">
+    <div class="product-card">
+      <div class="product-icons">
+      <a href="#"><i data-feather="shopping-cart"></i></a>
+      <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+    </div>
+    <div class="product-image">
+      <img src="img/produk-1.jpeg" alt="Produk 1">
+    </div>
+    <div class="product-content">
+      <h3 class="Coffee Beans Kokens 1"></h3>
+      <div class="product-stars">
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star"></i>
+    </div>
+    <div class="product-price">IDR 50K <span>IDR 70K</span></div>
+    </div>
+  </div>
+
+    <div class="product-card">
+      <div class="product-icons">
+      <a href="#"><i data-feather="shopping-cart"></i></a>
+      <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+    </div>
+    <div class="product-image">
+      <img src="img/produk-2.jpeg" alt="Produk 2">
+    </div>
+    <div class="product-content">
+      <h3 class="Coffee Beans Kokens 2"></h3>
+      <div class="product-stars">
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star"></i>
+    </div>
+    <div class="product-price">IDR 70K <span>IDR 100K</span></div>
+    </div>
+  </div>
+
+    <div class="product-card">
+      <div class="product-icons">
+      <a href="#"><i data-feather="shopping-cart"></i></a>
+      <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+    </div>
+    <div class="product-image">
+      <img src="img/produk-3.jpeg" alt="Produk 3">
+    </div>
+    <div class="product-content">
+      <h3 class="Coffee Beans Kokens 3"></h3>
+      <div class="product-stars">
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+    </div>
+    <div class="product-price">IDR 80K <span>IDR 100K</span></div>
+    </div>
+  </div>
+
+    <div class="product-card">
+      <div class="product-icons">
+      <a href="#"><i data-feather="shopping-cart"></i></a>
+      <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+    </div>
+    <div class="product-image">
+      <img src="img/produk-4.jpeg" alt="Produk 4">
+    </div>
+    <div class="product-content">
+      <h3 class="Coffee Beans Kokens 4"></h3>
+      <div class="product-stars">
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+    </div>
+    <div class="product-price">IDR 70K <span>IDR 100K</span></div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Product Section end -->
+
     <!-- Contact Section start -->
      <section class="contact" id="contact">
       <h2><span>Kontak</span>Kami</h2>
@@ -182,6 +327,116 @@
           <p>Created by <span>Bagas</span> | &copy; 2025.</p>
      </footer>
     <!-- Footer end -->
+
+    <!-- Modal Box Item Detail start -->
+     <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/produk-1.jpeg" alt="Product 1">
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>
+              Bijih Kopi Kenangan SMP
+Nikmati Aroma yang Menghidupkan Kenangan
+Bijih Kopi Kenangan SMP bukan sekadar kopi biasa, tapi kopi ini adalah perjalanan rasa, dari aroma pertama yang memikat hingga aftertaste yang meninggalkan kesan mendalam.
+
+Hadirkan nostalgia dalam setiap tegukan. Karena setiap kopi punya ceritanya masing masing.</p>
+    <div class="product-stars">
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star"></i>
+    </div>
+    <div class="product-price">IDR 50K <span>IDR 70K</span></div>
+    <a href="#"><i data-feather="shopping-cart"></i> <span>Tambah ke Keranjang</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="modal" id="item-detail-modal">
+        <div class="modal-container">
+          <a href="#" class="close-icon"><i data-feather="x"></i></a>
+          <div class="modal-content">
+            <img src="img/produk-2.jpeg" alt="Product 2">
+            <div class="product-content">
+            <h3>Product 2</h3>
+            <p>
+              Bijih Kopi Kenangan SMP
+Nikmati Aroma yang Menghidupkan Kenangan
+Bijih Kopi Kenangan SMP bukan sekadar kopi biasa, tapi kopi ini adalah perjalanan rasa, dari aroma pertama yang memikat hingga aftertaste yang meninggalkan kesan mendalam.
+
+Hadirkan nostalgia dalam setiap tegukan. Karena setiap kopi punya ceritanya masing masing.</p>
+    <div class="product-stars">
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star"></i>
+    </div>
+    <div class="product-price">IDR 70K <span>IDR 100K</span></div>
+    <a href="#"><i data-feather="shopping-cart"></i> <span>Tambah ke Keranjang</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/produk-3.jpeg" alt="Product 3">
+          <div class="product-content">
+            <h3>Product 3</h3>
+            <p>
+              Bijih Kopi Kenangan SMP
+Nikmati Aroma yang Menghidupkan Kenangan
+Bijih Kopi Kenangan SMP bukan sekadar kopi biasa, tapi kopi ini adalah perjalanan rasa, dari aroma pertama yang memikat hingga aftertaste yang meninggalkan kesan mendalam.
+
+Hadirkan nostalgia dalam setiap tegukan. Karena setiap kopi punya ceritanya masing masing.</p>
+    <div class="product-stars">
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star"></i>
+    </div>
+    <div class="product-price">IDR 80K <span>IDR 100K</span></div>
+    <a href="#"><i data-feather="shopping-cart"></i> <span>Tambah ke Keranjang</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/produk-4.jpeg" alt="Product 4">
+          <div class="product-content">
+            <h3>Product 4</h3>
+            <p>
+              Bijih Kopi Kenangan SMP
+Nikmati Aroma yang Menghidupkan Kenangan
+Bijih Kopi Kenangan SMP bukan sekadar kopi biasa, tapi kopi ini adalah perjalanan rasa, dari aroma pertama yang memikat hingga aftertaste yang meninggalkan kesan mendalam.
+
+Hadirkan nostalgia dalam setiap tegukan. Karena setiap kopi punya ceritanya masing masing.</p>
+    <div class="product-stars">
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star" class="star-full"></i>
+      <i data-feather="star"></i>
+    </div>
+    <div class="product-price">IDR 70K <span>IDR 100K</span></div>
+    <a href="#"><i data-feather="shopping-cart"></i> <span>Tambah ke Keranjang</span></a>
+          </div>
+        </div>
+      </div>
+     </div>
+    <!-- Modal Box Item Detail end -->
 
     <!-- Feather Icons -->
     <script>
